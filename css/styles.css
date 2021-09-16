@@ -1,0 +1,10 @@
+#about{
+    background-image: url('../assets/hero-bg.jpg');
+    background-size: cover;
+}
+
+
+#about>img{
+    height: 10%;
+    width: 15%;
+}

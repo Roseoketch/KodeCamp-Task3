@@ -1,10 +1,129 @@
-#about{
-    background-image: url('../assets/hero-bg.jpg');
-    background-size: cover;
+.header{
+    height: 38px;
+}
+
+nav{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
 }
 
 
-#about>img{
-    height: 10%;
-    width: 15%;
+nav>a{
+    margin-left: 5%;
+    text-decoration: none;
+    color:grey;
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
+    display: none;
+}
+
+.hamburger {
+    /* display: none; */
+    margin-left: 85%;
+}
+
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
+}
+
+#about{
+    background-image: url('../assets/hero-bg.jpg');
+    background-size: cover;
+    height: 100%;
+    margin-left: auto;
+
+}
+
+#about>h1{
+    padding-top: 8%;
+    font-size: 35px;
+    font-weight: lighter;
+    color: white;
+    border-bottom: 8px solid white;
+    padding-bottom: 3%;
+    margin-right: 60%;
+}
+
+#about>h1>span{
+    font-size: 70px;
+    font-weight: 700;
+}
+#about>h1,div{
+    margin-left: 5%;
+}
+
+#about>div{
+
+    display: flex;
+    margin-right: 48%;
+    padding-right: 10%;
+    color: white;
+}
+
+#about>div>h3{
+    font-weight: lighter;
+    padding-top: 2%;
+
+}
+#about>.images{
+    padding-top: 2%;
+    margin-bottom: 10%;
+    padding-bottom: 5%;
+
+}
+
+#serve{
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 7%;
+    /* background-color: #F1F1F1;
+    background-size: cover;
+    width: 99%;
+    margin-right: 5%; */
+}
+
+#serve>h1{
+    font-size: 50px;
+}
+
+#serve>button{
+    background-color: red;
+    border-style: none;
+    padding: 2% 2.5% 2% 2.5%;
+    color: white;
+    font-weight: bold;
+    margin-top: 3.5%;
+}
+
+#services{
+    display: flex;
+    padding-top: 5%;
+    padding-bottom: 8%;
+}
+
+#services>.one>p{
+    padding-left: 7%;
+    padding-top: 7%;
+}
+
+#services>.two>h3{
+    padding-top: 5%;
+    font-size: 35px;
+
+}
+
+#services>.two>h4{
+    font-size: 24px;
+    color: red;
 }

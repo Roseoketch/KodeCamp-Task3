@@ -7,6 +7,8 @@ nav{
     margin-bottom: 1%;
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
+
 }
 
 
@@ -64,7 +66,7 @@ li{
 }
 
 #about>div{
-
+    flex-wrap: wrap;
     display: flex;
     margin-right: 48%;
     padding-right: 10%;
@@ -88,9 +90,6 @@ li{
     padding-top: 10%;
     margin-bottom: 7%;
     background-color: #F1F1F1;
-    /* background-size: cover; */
-    /* width: 99%; */
-    /* margin-right: 5%; */
     margin-left: auto;
     padding-bottom: 7%;
 }
@@ -99,6 +98,10 @@ li{
     font-size: 50px;
 }
 
+#serve>p{
+    line-height: 30px;
+    font-size: 20px;
+}
 #serve>button{
     background-color: red;
     border-style: none;
@@ -113,11 +116,15 @@ li{
     display: flex;
     padding-top: 5%;
     padding-bottom: 8%;
+    flex-wrap: wrap;
+
 }
 
 #services>.one>p{
     padding-left: 7%;
     padding-top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 30px;
 }
 
 #services>.two>h3{
@@ -134,6 +141,7 @@ li{
 
 #quality{
     display: flex;
+    flex-wrap: wrap;
     background-color: rgba(219, 216, 223, 1);
     margin-left: auto;
 }
@@ -250,7 +258,8 @@ li{
     word-spacing: 3px;
     line-height: 120%;
     font-family: 'Open Sans', sans-serif;
-    font-weight: lighter;
+    /* font-weight: lighter; */
+
 }
 
 .last>.btn{
@@ -291,3 +300,41 @@ footer>:nth-child(2){
 footer>:nth-child(2)>a{
     color: blue;
 }
+
+/* media query */
+@media only screen and (max-width: 600px) {
+    body {
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden;
+    }
+
+    .me{
+        display: flex;
+        flex-direction:column ;
+        margin-top: 30%;
+    }
+    .services>.icons{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .hamburger {
+        margin-left: 49%;
+    }
+
+    #services>div{
+        margin: 15% 15%;
+    }
+
+    #services>div>img{
+        height:70%;
+        width: 70%;
+    }
+
+    #services>.two{
+        padding-bottom: 25%;
+    }
+    
+  }

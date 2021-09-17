@@ -102,7 +102,7 @@ li{
 #serve>button{
     background-color: red;
     border-style: none;
-    padding: 2% 2.5% 2% 2.5%;
+    padding: 16px 36px;
     color: white;
     font-weight: bold;
     margin-top: 3.5%;
@@ -161,7 +161,7 @@ li{
 #quality>div>button{
     background-color: red;
     border-style: none;
-    padding: 5% 6% 5% 6%;
+    padding: 16px 36px;
     color: white;
     font-weight: bold;
     margin-top: 3.5%;
@@ -172,8 +172,123 @@ li{
 .services>h1{
     font-size: 40px;
     font-weight: bolder;
+    margin-left: 9%;
+    margin-top: 8%;
 }
 
-.services>div{
+.services>.icons{
     display: flex;
+    margin-left: 5%;
+    /* margin-right: 5%; */
+    margin-top: 5%;
+}
+
+.services>.icons>div>h3{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.services>.icons>div>p{
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.me{
+    margin-top: 7%;
+    background-color: #1B3493;
+    display: flex;
+    /* margin-left: auto; */
+    padding-left: 2%;
+    color: white;
+}
+
+.me>:nth-child(1){
+    padding-top: 12%;
+    padding-left: 5%;
+
+}
+
+.me>:nth-child(1)>p{
+    font-size: 25px;
+    font-weight: normal;
+}
+
+.me>:nth-child(1)>h1{
+    font-size: 70px;
+    /* font-weight: bolder; */
+}
+
+.me>:nth-child(1)>h1>span{
+    font-weight: 900;
+    font-weight: bolder;
+    font-size: 85px;
+
+}
+
+.me>.img{
+    display: flex;
+    flex-direction: column;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    justify-content: space-between;
+}
+
+
+.last{
+    text-align: center;
+    padding-top: 8%;
+}
+
+.last>h3{
+    font-size: 36px;
+    font-family: Roboto, sans-serif;
+}
+
+.last>p{
+    font-size: 30px;
+    word-spacing: 3px;
+    line-height: 120%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.last>.btn{
+    background-color: red;
+    border-style: none;
+    padding: 18px 36px;
+    color: white;
+    font-weight: bold;
+    margin-top: 3.5%;
+    /* margin-bottom:30%; */
+}
+
+
+.last>.btn2{
+    background-color:white;
+    border-style: 1px solid black;
+    padding: 16px 36px;
+    font-weight: bold;
+    margin-top: 3.5%;
+    margin-left: 1%;
+}
+
+footer{
+    background-color: black;
+    margin-top: 8%;
+    color: white;
+    text-align: center;
+}
+
+footer>:nth-child(1){
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer>:nth-child(2){
+    padding-bottom: 3%;
+}
+
+footer>:nth-child(2)>a{
+    color: blue;
 }

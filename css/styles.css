@@ -413,12 +413,30 @@ footer>:nth-child(2)>a{
     }
      nav>div{
          margin-left: 50%;
+         margin-bottom: -20%;
+
      }
 
-    .me{
+    /* .me{
         display: flex;
         flex-direction:column ;
         margin-top: 50%;
+    } */
+
+    .me{
+        margin-bottom: 90px;
+        margin-top: 10px;
+        width: 100vw;
+        font-size: 2rem;
+    }
+
+    .me>.f{
+        font-size: 20px;
+        /* width: 50vh; */
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: 0;
+        margin-right: 0;
     }
     .services>.icons{
         display: flex;
@@ -454,7 +472,8 @@ footer>:nth-child(2)>a{
     }
 
     .last{
-        padding: 20% 20%;
+        padding: 2% 5%;
+        text-align: center;
     }
 
     .last>h3>p{

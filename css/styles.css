@@ -367,7 +367,8 @@ footer>:nth-child(2)>a{
 
     #about>h1{
         padding-bottom: 5%;
-        /* margin-top: -20px; */
+        padding-top: 20%;
+        margin-bottom: 20%;
     }
     /* #about>h1>div{
        margin-left: 12%;

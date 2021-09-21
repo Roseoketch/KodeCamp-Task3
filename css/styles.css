@@ -1,3 +1,13 @@
+  
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Poppins:wght@100;200;300;400;500;600;900&family=Raleway:wght@200&display=swap');
+
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 .header{
     height: 38px;
 }
@@ -301,23 +311,118 @@ footer>:nth-child(2)>a{
     color: blue;
 }
 
-/* media query */
-@media only screen and (max-width: 600px) {
+/* notepad media query */
+
+@media only screen and (max-width:768px){
+
+  #serve{
+    width: 50vh;
+    margin-right: 30%;
+}
+    nav{
+        width: 768px;
+        height: 80px;
+        padding-left: 5%;
+        display: flex;
+        padding-right: 25%;
+    }    
+    
+    nav>div{
+        margin-top: -25%;
+    }
+    nav>a{
+        margin-bottom: 10%;
+    }
+
+    .last{
+        margin-bottom: 90px;
+        margin-top: 10px;
+        width: 67vw;
+    }
+
+    footer{
+        margin-bottom: 90px;
+        margin-top: 10px;
+        width: 67vw;
+    }
+
+    .me{
+        margin-bottom: 90px;
+        margin-top: 10px;
+        width: 67vw;
+    }
+
+    #about{
+       
+        background-position: 80% top;
+        /* background-position: right; */
+    
+        margin-bottom: 90px;
+        margin-top: 10px;
+        width: 100vw;
+        margin-right: 20%;
+    
+    }
+
+
+    #about>h1{
+        padding-bottom: 5%;
+        /* margin-top: -20px; */
+    }
+    /* #about>h1>div{
+       margin-left: 12%;
+    } */
+
+
+    #about>.images{
+        display: none;
+        /* flex-direction: row; */
+        
+    }
+
+    .services>.icons{
+        width: 50vh;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 20%;
+      
+    }
+}
+
+
+
+
+
+
+
+
+/* phone media query */
+@media only screen and (max-width: 360px) {
     body {
       display: flex;
       flex-direction: column;
       overflow-x: hidden;
     }
+    nav{
+        display: flex ;
+        width: 360px;
+        padding-bottom: 5%;
+        padding-left: 10%;
+        height: 80px;
+    }
+     nav>div{
+         margin-left: 50%;
+     }
 
     .me{
         display: flex;
         flex-direction:column ;
-        margin-top: 30%;
+        margin-top: 50%;
     }
     .services>.icons{
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
     }
 
     .hamburger {
@@ -334,7 +439,26 @@ footer>:nth-child(2)>a{
     }
 
     #services>.two{
-        padding-bottom: 25%;
+        padding-bottom: 30%;
+        padding-top: 10%;
+    }
+
+    #services>div>img{
+        height: 70%;
+        width: 70%;
+    }
+
+    #quality>img{
+        align-items: center;
+        align-content: flex-start;
+    }
+
+    .last{
+        padding: 20% 20%;
+    }
+
+    .last>h3>p{
+        padding-bottom: 15%;
     }
     
   }

@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
 
 .header{
     height: 38px;
@@ -340,6 +344,10 @@ footer>:nth-child(2)>a{
         width: 67vw;
     }
 
+    .last>h3,p{
+        padding-bottom: 10%;
+    }
+
     footer{
         margin-bottom: 90px;
         margin-top: 10px;
@@ -350,6 +358,17 @@ footer>:nth-child(2)>a{
         margin-bottom: 90px;
         margin-top: 10px;
         width: 67vw;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .me>.img>div>img{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10%;
+        height: 350px;
+        width: 300px;
+        justify-content: space-between;
     }
 
     #about{

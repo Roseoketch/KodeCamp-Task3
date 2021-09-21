@@ -319,7 +319,7 @@ footer>:nth-child(2)>a{
 
 /* notepad media query */
 
-@media only screen and (max-width:768px){
+@media only screen and (min-width:768px){
 
   #serve{
     width: 50vh;
@@ -420,7 +420,7 @@ footer>:nth-child(2)>a{
 
 
 /* phone media query */
-@media only screen and (max-width: 360px) {
+@media only screen and (min-width: 360px) {
     body {
       display: flex;
       flex-direction: column;
